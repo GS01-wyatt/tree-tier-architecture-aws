@@ -3,24 +3,23 @@ This repository contains a simple "Hello World" application built using a three-
 
 The application follows the classic three-tier architecture:
 
-Frontend Tier (Presentation Layer)
-
+1. > Frontend Tier (Presentation Layer)
 HTML/CSS/JavaScript
 Served by NGINX web servers
 Handles user interface and interactions
 Backend Tier (Application Layer)
 
-PHP API
+2. > PHP API
 Processes business logic
 Communicates with database
 Serves data to frontend
 Database Tier (Data Layer)
 
-MySQL database
+3. > MySQL database
 Stores application data
 Provides data persistence
 
-Features
+> Features
 Display messages from the database
 Add new messages to the database
 Basic responsive design
